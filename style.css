@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ background-color:#EEE;
+ font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    background-color: rgb(191, 241, 241);
+    margin: 0px auto;
+}
+#profile-image{
+    width:100px;
+    height:100px;
+    border: 1px solid white;
+    border-radius:50%;
+    margin: 10px;
+    float:left;
+}
+.header-bio{
+    margin-top:20px;
+    float:left;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+.contract-bio{
+    margin-top:20px;
+    margin-right: 20px;
+    float:right;
+}
+.contract-bio a{
+    text-decoration: none;
+    color:#11999e;
+}
+.contract-bio a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+   border-top: 3px solid black;
+   margin: 10px auto;
+}
+.content{
+    margin: 20px;
+    margin-top: 50px;
+}
+  
+.left-div{
+  float: left;
+  width: 30%;
+}
+.right-div{
+  float:left;
+  width: 70%;
+}
+.common-hr{
+  border-top: 1px solid black;
+ 
+  margin: 30px auto;
+}
+.education-part-left{
+   width:45%;
+   float:left;
+}
+.education-part-right{
+    width: 45%;
+    float:right;
+}
+.footer-container{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+.footer-container a{
+    text-decoration:none;
+    margin: 10px;
+    color: white;
+}
+.footer-container p{
+   
+    color: white;
+}
+footer{
+    height:100px;
+}
